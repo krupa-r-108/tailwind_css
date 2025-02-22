@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocify</title>
+    <link href="../src/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-[url('/images/image.png')] text-white bg-center">
+    <div>
+        <nav class="flex flex-col justify-between items-center p-2 sm:flex-row  gap-4 sm:gap-0 ">
+            <h1 class="text-4xl text-amber-300 font-bold cursor-pointer ">🐝 Grocify</h1>
+
+
+            <!-- Navigation Menu -->
+            <div id="menu" class="block">
+                <ul class="flex sm:flex flex-row  justify-between items-center gap-5  ">
+                    <li><a href="#" class="hover:text-amber-300">Home</a></li>
+                    <li><a href="#" class="hover:text-amber-300">About</a></li>
+                    <li><a href="#" class="hover:text-amber-300">Features</a></li>
+                    <li><a href="#" class="hover:text-amber-300">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-basket-shopping text-4xl hover:text-amber-300 cursor-pointer  "></i>
+        </nav>
+    </div>
+
+    <!-- hero section -->
+    <div class="flex justify-center items-center sm:h-[91vh] h-[120vh] sm:flex flex-col sm:flex-row">
+        <div class="sm:w-2xl w-full p-4 mt-5">
+            <h1 class="font-bold text-4xl mb-4">Groceries</h1>
+            <h1 class="font-bold text-4xl mb-4">delivery in <span class="font-medium">15 mins</span></h1>
+            <p class="leading-relaxed mb-8">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus maxime similique quibusdam corporis illum aliquid libero omnis delectus! Expedita libero laborum numquam est. Ipsam, pariatur.</p>
+            <div class="sm:flex gap-3 hidden">
+                <button class="border p-3 rounded-3xl cursor-pointer bg-amber-300 text-black hover:bg-black hover:text-amber-300 transition-all duration-150">Order Now</button> 
+                <button class="border p-3 rounded-3xl cursor-pointer bg-black text-amber-300 hover:bg-amber-300 hover:text-black transition-all duration-150">Download Now</button>
+            </div>
+        </div>
+        <div class="bg-[url('/images/grocery-image.png')] sm:h-[550px] sm:w-[500px] h-[700px] w-[400px] sm:bg-cover bg-top bg-cover ">
+        </div>
+        <div class="sm:hidden gap-3 flex mt-8 pb-2">
+            <button class="border p-3 rounded-3xl cursor-pointer bg-amber-300 text-black hover:bg-black hover:text-amber-300 transition-all duration-150">Order Now</button> 
+            <button class="border p-3 rounded-3xl cursor-pointer bg-black text-amber-300 hover:bg-amber-300 hover:text-black transition-all duration-150">Download Now</button>
+        </div>
+    </div>
+
+</body>
+</html>
